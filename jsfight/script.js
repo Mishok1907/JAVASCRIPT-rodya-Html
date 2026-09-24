@@ -1,13 +1,13 @@
-const warior = {damegw: 11, hpw: 75};
+const warior = {dameg: 11, hp: 75};
 
-const mag = {damegm: 10, hp hpm: 100};
+const mag = {dameg: 10, hp hp: 100};
 
 
 
-for (let h = 0; h = 1; h = 0 ) {
-     warior.hpw = warior.hpw - mag.damegm;
-     mag.hpm = mag.hpm - mag.damegw;
-     if (warior.hpw >= 0 || mag.hpm >= 0) {
+for (let h = 0; h == 1; h = 0 ) {
+     warior.hp = warior.hp - mag.dameg;
+     mag.hp = mag.hp - mag.dameg;
+     if (warior.hp >= 0 || mag.hp >= 0) {
         h = 1;
      }
 }
