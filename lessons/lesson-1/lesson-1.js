@@ -37,8 +37,15 @@ user.name = "Петя";
 
 // private int[] applesCount;
 
+// МАССИВЫ
+
 const fruits = ["яблоко", "банан"];
-fruits.push("апельсин");
+
+fruits.length;          // 2
+fruits[0];              // "яблоко"
+fruits.push("груша");   // добавить в конец
+fruits.pop();           // удалить последний
+fruits.includes("банан"); // true
 
 let aa = 1;
 let bb = "1";
@@ -59,4 +66,20 @@ while (n > 0) {
     n--;
 }
 
+//
+
+function greet(name){
+    return `Привет, ${name}!`;
+}
+
+console.log(greet("Вася"));
+
+const sum = (a,b) => a + b;
+
+console.log(sum(2,10));
+
+
+
+// Пройтись по массиву
+fruits.forEach(f => console.log(f));
 
