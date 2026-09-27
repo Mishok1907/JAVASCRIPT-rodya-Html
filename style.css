@@ -1,0 +1,10 @@
+.button-cake{
+    gap: 12px;
+}
+.button-cake button{
+    padding: 50px;
+}
+body{
+    display: flex;
+    gap: 121px;
+}
