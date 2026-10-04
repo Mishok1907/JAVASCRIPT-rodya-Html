@@ -4,7 +4,7 @@ const input = document.getElementById("nameInput");
 let curentName = "job" ;
 greetBtn.addEventListener("click", () => {
     curentName = input.valve;
-    nameHello.textContent = ' Привет ${curentName}';
+    nameHello.textContent = 'Привет ${curentName}';
 });
 
  
