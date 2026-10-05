@@ -1,15 +1,8 @@
-const btnThemes = document.getElementByID("btnTheme");
-const isNIGHT = false;
+const btnThemes = document.getElementById("btnTheme");
+let isNIGHT = false;
 
 btnThemes.addEventListener("click", () => {
-    if (isNIGHT ==  false) {
-        btnThemes.classList.remove("light");
-         btnThemes.classList.toggle("night");
-         isNIGHT = true;
-    }
-    else{
-         btnThemes.classList.remove("night");
-         btnThemes.classList.toggle("light");
-         isNIGHT = false;
-    }
+   isNIGHT = !isNIGHT;
+   document.body.classList.toggle("night" , isNIGHT);
+    document.body.classList.toggle("light" , !isNIGHT);
 });

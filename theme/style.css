@@ -1,8 +1,17 @@
-.night{
-    color: aliceblue;
-    background-color: grey;
+body.night{
+    color: white;
+    background-color: black;
 }
-.light{
+body.night button{
+    color: white;
+    background-color: black;
+}
+body.light{
     color: black;
-    background-color: darkgrey;
+    background-color: white;
+}
+
+body.light button{ 
+    color: black;
+    background-color: white;
 }
